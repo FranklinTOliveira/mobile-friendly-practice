@@ -1,0 +1,22 @@
+#container{
+    position: absolute;
+}
+
+#firstarticle{
+    bottom: 48%;
+}
+
+#secondarticle{
+    bottom: 32%;
+}
+
+#footer{
+    position:relative;
+    bottom: 16%;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    vertical-align: middle;
+    background-color:aqua;
+    border: 1px solid black;
+}
