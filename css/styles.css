@@ -2,21 +2,48 @@
     position: absolute;
 }
 
+.cls-1 {
+    fill: url(#gradient);
+}
+
+#label{
+    position:absolute;
+    top:16%;
+    left: 44%;
+    text-align: center;
+    vertical-align: middle;    
+    color:white;
+}
+
+
+h3{
+    color:darkblue;
+}
+
 #firstarticle{
     bottom: 48%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #secondarticle{
     bottom: 32%;
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #footer{
     position:relative;
     bottom: 16%;
-    height: 600px;
-    width: 600px;
     text-align: center;
     vertical-align: middle;
-    background-color:aqua;
+    background-color:rgba(9,109,121,1);
+    color:white;
     border: 1px solid black;
+}
+
+#footer a{
+    color:white;
 }
