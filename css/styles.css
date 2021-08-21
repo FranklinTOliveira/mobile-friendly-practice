@@ -6,6 +6,24 @@
     fill: url(#gradient);
 }
 
+@media only screen and (max-width: 480px) {
+    header {
+      background-color: red;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+      header {
+        background-color: royalblue;
+      }
+    }
+
+@media only screen and (max-width: 1024px) {
+    header {
+      background-color: gold;
+    }
+  }
+
 #label{
     position:absolute;
     top:16%;
